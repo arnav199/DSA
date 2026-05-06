@@ -40,6 +40,11 @@ def linked_list_to_list(head: Optional[ListNode]) -> List[int]:
     return values
 
 
+class Solution:
+    def twoSum(self, nums: List[int], target: int) -> List[int]:
+        return two_sum(nums, target)
+
+
 # ---------------------------------------------------------------------------
 # Array
 # ---------------------------------------------------------------------------
